@@ -9,7 +9,11 @@
 // import { Practices } from "./Practices";
 // import Greeting from "./Components/Conditional";
 // import ListStatic from "./Components/ListStatic";
-import ListDynamic from "./Components/ListDynamic";
+// import ListDynamic from "./Components/ListDynamic";
+// import UseEffectExample from "./Components/UseEffectExample";
+// import UseRef from "./Components/useRef";
+// import UseMemo from "./Components/useMemo";
+import UseCallbackExample from "./Components/UseCallbackExample";
 
 export const App = () => {
   return (
@@ -23,7 +27,11 @@ export const App = () => {
       {/* <Practices /> */}
       {/* <Greeting/> */}
       {/* <ListStatic /> */}
-      <ListDynamic />
+      {/* <ListDynamic /> */}
+      {/* <UseEffectExample /> */}
+      {/* <UseRef/> */}
+      {/* <UseMemo/> */}
+      <UseCallbackExample/>
     </>
   );
 };
